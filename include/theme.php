@@ -8,7 +8,7 @@ function list_files($directory,$pattern,$preitem,$postitem,$haslink) {
 				if ($haslink) {
 					$output .= $preitem.'<a href="/' . $entry . '">' . $entry . "</a>" . $postitem . "\n";
 				} else {
-					$output .= $preitem.                            . $entry .        . $postitem . "\n";
+					$output .= $preitem.           ""                . $entry .   ""   . $postitem . "\n";
 				}				
 			}
 	    }
