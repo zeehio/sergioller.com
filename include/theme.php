@@ -1,6 +1,6 @@
 <?php
 
-function createheader($title,$ht_path,$toc_display) {
+function create_header($title,$ht_path,$toc_display) {
 
 $output = <<< HTML
 <!DOCTYPE HTML>

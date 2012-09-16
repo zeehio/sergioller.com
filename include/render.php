@@ -113,7 +113,7 @@ if ( file_exists( $md_source ) ) {
     } else {
       $toc_display = "";
     }
-    echo createheader($title,${ht_path},${toc_display});
+    echo create_header($title,${ht_path},${toc_display});
     if ( $settings['text_version'] ) {
       $text_href = "${requested_file}-${settings['text_suffix']}";
       echo '<div class="controls" style="float: right"><a href="' . $text_href . '">View Original Text</a></div>' . "\n";
