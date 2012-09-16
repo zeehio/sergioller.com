@@ -61,11 +61,8 @@ $output = <<< HTML
 <ul id="nav">
 HTML;
 $output .= list_pages(".");
-$output2 = <<< HTML  
-</ul>
-HTML;
 
-return $output . $output2;
+return $output . "</ul>";
 }
 
 function create_footer() {
