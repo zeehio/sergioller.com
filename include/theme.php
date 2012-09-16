@@ -1,14 +1,19 @@
 <?php
 
-function list_files($directory,$pattern,$preitem,$postitem,$haslink) {
+function list_files($directory,$pattern,$preitem,$postitem,$haslink,$removeext) {
 	if ($handle = opendir($directory)) {
 	    $output = "";
 	    while (false !== ($entry = readdir($handle))) {
 			if (preg_match($pattern,$entry)) {
-				if ($haslink) {
-					$output .= $preitem.'<a href="/' . $entry . '">' . $entry . "</a>" . $postitem . "\n";
+				if ($removeext) {
+					$name = preg_replace('/\.[^.]+$/','',$entry);
 				} else {
-					$output .= $preitem.           ""                . $entry .   ""   . $postitem . "\n";
+					$name = $entry;
+				}
+				if ($haslink) {
+					$output .= $preitem.'<a href="/' . $entry . '">' . $name . "</a>" . $postitem . "\n";
+				} else {
+					$output .= $preitem.           ""                . $name .   ""   . $postitem . "\n";
 				}				
 			}
 	    }
@@ -18,11 +23,11 @@ function list_files($directory,$pattern,$preitem,$postitem,$haslink) {
 }
 
 function list_posts($directory) {
-	return list_files($directory,"/^[0-9].*\.md$/","<li>","</li>",true);
+	return list_files($directory,"/^[0-9].*\.md$/","<li>","</li>",true,true);
 }
 
 function list_pages($directory) {
-	return list_files($directory,"/^[^0-9].*\.md$/","<li>","</li>",true);
+	return list_files($directory,"/^[^0-9].*\.md$/","<li>","</li>",true,true);
 }
 
 
