@@ -1,11 +1,6 @@
----
-title: Formulari de Mecànica Quàntica
-tagline:
-layout: post
-category : Física
-tags : [mecànica quàntica, física, formulari]
----
-{% include JB/setup %}
+tags: mecànica quàntica, física, formulari
+
+# Formulari de Mecànica Quàntica
 
 He fet un formulari per l'assignatura de mecànica quàntica i l'he anat mantenint amb correccions d'altres 
 alumnes.

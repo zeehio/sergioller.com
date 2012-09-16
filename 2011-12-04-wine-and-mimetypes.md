@@ -1,11 +1,7 @@
----
-title: Wine and MimeType associations
-tagline: 
-layout: post
-category : Software Lliure
-tags : [wine]
----
-{% include JB/setup %}
+tags: foss, wine
+
+
+# Wine and MimeType associations
 
 I recently installed a *Wine* application which associated itself to the *.dat* extension. I tried uninstalling the application to get rid of the association, but the uninstaller did not remove it.
 

@@ -1,14 +1,10 @@
----
-title: Demandes de mínims dels acampats
-tagline: 
-layout: post
-category : Societat
-tags : [indignats]
----
-{% include JB/setup %}
+author: Sergio Oller
+tags: indignats
+
+# Demandes de mínims dels acampats
 
 Imagino que s'ha escrit molt sobre aquest tema, però vull comentar les propostes de [acampadaBCN](http://acampadabcn.wordpress.com/demandes/) donant la opinió que m'he format (marcada en **negreta**). 
-Em reservo el dret a canviar-la en qualsevol moment.
+Em reservo el dret a canviar-la en qualsevol moment, de fet potser ja no és vàlida però reflexa els meus pensaments a 29 de maig de 2011.
 
  1. No més privilegis per a polítics, començant per Barcelona:
 

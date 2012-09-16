@@ -1,3 +1,4 @@
+author: Sergio Oller
 tags: física, UrbanTerror, 3D
 
 # Mapa de la facultat de física per l'UrbanTerror

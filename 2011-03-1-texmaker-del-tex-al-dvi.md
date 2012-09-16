@@ -1,11 +1,7 @@
----
-title: Tornant al TEX des del DVI amb TexMaker
-tagline: 
-layout: post
-category : Software Lliure
-tags : [LaTeX, TexMaker]
----
-{% include JB/setup %}
+author: Sergio Oller
+tags: LaTeX, TexMaker
+
+# Tornant al TEX des del DVI amb TexMaker
 
 Hola fans del texmaker! Amb **Texmaker** és possible clicar a una part del document quan l'estem visualitzant i **tornar a la línia de codi LaTeX original**. Això és molt útil si descobrim una falta d'ortografia tot llegint el nostre document. Si llegim el *Manual de Texmaker* hi i trobem la informació següent:
 

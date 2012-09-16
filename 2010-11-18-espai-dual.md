@@ -1,11 +1,7 @@
----
-title: L'espai dual
-tagline: una explicació diferent
-layout: post
-category : Física
-tags : [física, Planta8]
----
-{% include JB/setup %}
+author: Sergio Oller
+tags: física, Planta8
+
+# L'espai dual
 
 Comparteixo també un article sobre l'espai dual que vaig publicar al 
 Planta8 número 51, la revista satírica burlesca i no oficial 
