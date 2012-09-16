@@ -21,6 +21,11 @@ function list_posts($directory) {
 	return list_files($directory,"/^[0-9].*\.md$/","<li>","</li>",true);
 }
 
+function list_pages($directory) {
+	return list_files($directory,"/^[^0-9].*\.md$/","<li>","</li>",true);
+}
+
+
 function create_header($title,$ht_path,$toc_display) {
 
 $output = <<< HTML
@@ -52,12 +57,12 @@ $output = <<< HTML
   </script>
 </head>
 <body${toc_display}>
-<div id="topheader">
 <h1><a href="/">zeehio - Web personal</a></h1>
-<ul>
-  
+<ul id="nav">
+HTML;
+$output .= list_pages(".");
+$output .= <<< HTML  
 </ul>
-</div>
 HTML;
 
 return $output;
