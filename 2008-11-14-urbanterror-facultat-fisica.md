@@ -1,11 +1,6 @@
----
-title: Mapa de la facultat de física per l'UrbanTerror
-tagline:
-layout: post
-category : [Física, 3D]
-tags : [física, UrbanTerror, 3D]
----
-{% include JB/setup %}
+tags: física, UrbanTerror, 3D
+
+# Mapa de la facultat de física per l'UrbanTerror
 
 Per celebrar el Sant Albert de 2008 vaig dissenyar un mapa de la 
 facultat de física pel joc UrbanTerror, que en anys següents he anat 
