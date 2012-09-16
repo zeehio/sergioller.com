@@ -1,13 +1,7 @@
----
-title: Quant a
-tagline: l'autor
-layout: page 
-category : 
-tags : 
----
-{% include JB/setup %}
 
-![Sergio Oller](/assets/files/2010/face.jpg)
+# Quant a...
+
+![Sergio Oller](/mypermanent.php?slug=face)
 
 El meu nom és Sergio Oller, sóc físic i aquest és el meu racó 
 personal.
@@ -18,7 +12,6 @@ formularis que puguin ser útils als altres.
 És probable que en aquesta web tracti temes com:
 
  * Programació
- * Estadística
  * Processat de senyal
  * Intel·ligència artificial
  * Olfacció artificial
