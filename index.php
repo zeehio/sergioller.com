@@ -1,11 +1,9 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>zeehio - Web personal</title>
-</head>
-<body>
-<ul>
 <?php
+require_once('include/theme.php');
+
+create_header("zeehio - Web personal","include","");
+
+echo "<ul>\n";
 if ($handle = opendir('.')) {
     while (false !== ($entry = readdir($handle))) {
 		if (preg_match("/^[0-9].*\.md$/",$entry)) {
@@ -14,7 +12,6 @@ if ($handle = opendir('.')) {
     }
     closedir($handle);
 }
+echo "</ul>\n";
+create_footer();
 ?>
-</ul>
-</body>
-</html>

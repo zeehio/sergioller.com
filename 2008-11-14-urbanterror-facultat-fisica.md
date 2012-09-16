@@ -30,7 +30,7 @@ acabat el bròquil.
 
 ## Instruccions d'instal·lació:
 
-1. Descarrega [ut4_facultat_base2.pk3](/mypermanent.php?slug=ut4_facultat_base2.pk3)
+1. Descarrega [ut4\_facultat\_base2.pk3](/mypermanent.php?slug=ut4_facultat_base2.pk3)
 
 2. Mou el fitxer descarregat a dins la carpeta **q3ut4** de 
 l'urbanterror (mira a D:, "Mis documentos" o /media/dades si estàs a la 
