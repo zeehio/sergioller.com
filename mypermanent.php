@@ -16,9 +16,9 @@ $listofslugs = array(
    "mecanicaquantica" => "/download/formularis/formulariMQ.pdf",
    "mecanicaquantica-src" => "/download/formularis/formulariMQ.odt");
 
-if isset($_GET["id"]) {
+if (isset($_GET["id"])) {
    $newpath = $listofslugs[$idtoslug[$_GET["id"]]];
-} else if isset($_GET["slug"]) {
+} else if (isset($_GET["slug"])) {
    $newpath = $listofslugs[$_GET["slug"]];
 }
 
