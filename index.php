@@ -8,7 +8,7 @@
 <?php
 if ($handle = opendir('.')) {
     while (false !== ($entry = readdir($handle))) {
-		if (preg_match("\.md$",$entry) {
+		if (preg_match("\.md$",$entry)) {
 			echo '<li><a href="' . $entry . '">' . $entry . "</a></li>\n";
 		}
     }
