@@ -1,4 +1,4 @@
-tags : foss, gnuplot, LaTeX
+tags: foss, gnuplot, LaTeX
 
 # gnuplot breaks LaTeX PDF title (SOLVED)
 ## Problem description

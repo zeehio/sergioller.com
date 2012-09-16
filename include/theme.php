@@ -1,5 +1,26 @@
 <?php
 
+function list_files($directory,$pattern,$preitem,$postitem,$haslink) {
+	if ($handle = opendir($directory)) {
+	    $output = "";
+	    while (false !== ($entry = readdir($handle))) {
+			if (preg_match($pattern,$entry)) {
+				if ($haslink) {
+					$output .= $preitem.'<a href="/' . $entry . '">' . $entry . "</a>" . $postitem . "\n";
+				} else {
+					$output .= $preitem.                            . $entry .        . $postitem . "\n";
+				}				
+			}
+	    }
+	    closedir($handle);
+	}
+	return $output;
+}
+
+function list_posts() {
+	return list_files(dirname($_SERVER["SCRIPT_NAME"]) . "/../","/^[0-9].*\.md$/","<li>","</li>",true);
+}
+
 function create_header($title,$ht_path,$toc_display) {
 
 $output = <<< HTML
@@ -31,7 +52,12 @@ $output = <<< HTML
   </script>
 </head>
 <body${toc_display}>
-
+<div id="topheader">
+<h1><a href="/">zeehio - Web personal</a></h1>
+<ul>
+  
+</ul>
+</div>
 HTML;
 
 return $output;
