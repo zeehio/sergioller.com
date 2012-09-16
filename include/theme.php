@@ -61,7 +61,8 @@ $output = <<< HTML
 <ul id="nav">
 HTML;
 $output .= list_pages(".");
-$output .= <<< HTML  
+$output = <<< HTML  
+$output
 </ul>
 HTML;
 
