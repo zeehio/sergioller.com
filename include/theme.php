@@ -57,7 +57,7 @@ $output = <<< HTML
   </script>
 </head>
 <body${toc_display}>
-<h1><a href="/">zeehio - Web personal</a></h1>
+<h1><a href="/">$title</a></h1>
 <ul id="nav">
 HTML;
 $output .= list_pages(".");
