@@ -121,17 +121,7 @@ if ( file_exists( $md_source ) ) {
       echo '<p id="showhide" class="controls" onClick="toggleVisibility(this, \'TOC\');">Hide Table of Contents</p>' . PHP_EOL;
     }
     echo $html;
-    echo <<<HTML
-<div id="bigfoot">
-  <!-- A decent amount of empty space was added so the browser can jump to anchors near the bottom of the page. -->
-  &nbsp;
-</div>
-
-HTML;
-    echo <<<HTML
-</body>
-</html>
-HTML;
+    echo create_footer();
   }
 } else {
   // the requested file doesn't exist

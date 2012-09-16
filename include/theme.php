@@ -37,4 +37,17 @@ HTML;
 return $output;
 }
 
+function create_footer() {
+$output = <<< HTML
+<div id="bigfoot">
+  <!-- A decent amount of empty space was added so the browser can jump to anchors near the bottom of the page. -->
+  &nbsp;
+</div>
+
+</body>
+</html>
+HTML;
+return $output;
+}
+
 ?>
