@@ -2,8 +2,8 @@ tags: mecànica quàntica, física, formulari
 
 # Formulari de Mecànica Quàntica
 
-He fet un formulari per l'assignatura de mecànica quàntica i l'he anat mantenint amb correccions d'altres 
-alumnes.
+He fet un formulari per l'assignatura de mecànica quàntica i l'he anat 
+mantenint amb correccions d'altres alumnes.
 
 ## Descàrregues:
 
@@ -12,7 +12,7 @@ alumnes.
 [Descarrega el formulari (ODT)](/assets/files/2010/formulariMQ.odt)
 
 
-### Llista de canvis:
+## Llista de canvis:
 
 -  Sergio Oller - 14 juny 2010 v1.5:
 

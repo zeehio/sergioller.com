@@ -1,11 +1,6 @@
----
-title: Formulari d'Estat sòlid
-tagline:
-layout: post
-category : Física
-tags : [estat sòlid, física, formulari]
----
-{% include JB/setup %}
+tags: estat sòlid, física, formulari
+
+# Formulari d'Estat sòlid
 
 He fet un formulari per l'assignatura d'estat sòlid i l'he anat mantenint amb correccions d'altres alumnes.
 
@@ -16,7 +11,7 @@ He fet un formulari per l'assignatura d'estat sòlid i l'he anat mantenint amb c
 [Descarrega el formulari (ODT)](/assets/files/2010/formulariES.odt)
 
 
-### Llista de canvis:
+## Llista de canvis:
 
 - Sergio Oller - 31 gener 2010 v.1.5:
    - Corregit un “vector y” que havia de ser “vector j”. (Gràcies a l’Enrique Pinto per la correcció)
