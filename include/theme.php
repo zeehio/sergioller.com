@@ -18,6 +18,7 @@ function list_files($directory,$pattern,$preitem,$postitem,$haslink) {
 }
 
 function list_posts() {
+        echo dirname($_SERVER["SCRIPT_NAME"]) . "/../";
 	return list_files(dirname($_SERVER["SCRIPT_NAME"]) . "/../","/^[0-9].*\.md$/","<li>","</li>",true);
 }
 
