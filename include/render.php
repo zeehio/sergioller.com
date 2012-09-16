@@ -112,13 +112,14 @@ if ( file_exists( $md_source ) ) {
       $toc_display = "";
     }
     echo <<<HTML
+<!DOCTYPE HTML>
 <html>
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <link rel="stylesheet" href="${ht_path}/markdown-screen.css" type="text/css" media="screen" charset="utf-8">
-  <link rel="stylesheet" href="${ht_path}/markdown-print.css" type="text/css" media="print" charset="utf-8">
+  <link rel="stylesheet" href="${ht_path}/markdown-screen.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="${ht_path}/markdown-print.css" type="text/css" media="print" >
   <title>$title</title>
-  <script type="text/javascript" charset="utf-8">
+  <script type="text/javascript">
     function toggleVisibility(theButton, targetName) {
       var target = document.getElementById(targetName);
       if ( target.style.opacity == '0' ) {
@@ -269,3 +270,4 @@ function html_comment( $invar ) {
   echo "\n-->\n";
 }
 ?>
+
