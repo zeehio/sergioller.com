@@ -5,7 +5,7 @@ echo create_header("zeehio - Web personal","include","");
 
 echo "<h1>Darreres entrades</h1>";
 echo "<ul>\n";
-list_posts();
+echo list_posts();
 echo "</ul>\n";
 echo "<ul>";
 if ($handle = opendir('.')) {
