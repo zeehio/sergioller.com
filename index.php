@@ -1,7 +1,7 @@
 <?php
 require_once('include/theme.php');
 
-create_header("zeehio - Web personal","include","");
+echo create_header("zeehio - Web personal","include","");
 
 echo "<ul>\n";
 if ($handle = opendir('.')) {
@@ -13,5 +13,5 @@ if ($handle = opendir('.')) {
     closedir($handle);
 }
 echo "</ul>\n";
-create_footer();
+echo create_footer();
 ?>
