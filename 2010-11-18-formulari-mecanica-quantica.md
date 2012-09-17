@@ -1,4 +1,6 @@
-tags: mecànica quàntica, física, formulari
+tags: mecànica quàntica
+      física
+      formulari
 
 # Formulari de Mecànica Quàntica
 
