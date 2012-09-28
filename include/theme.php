@@ -31,7 +31,7 @@ function list_pages($directory) {
 }
 
 
-function create_header($title,$ht_path,$toc_display) {
+function create_header($title,$ht_path,$toc_display,$meta) {
 
 $output = <<< HTML
 <!DOCTYPE HTML>
