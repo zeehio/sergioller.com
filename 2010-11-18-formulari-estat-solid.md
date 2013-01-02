@@ -6,9 +6,9 @@ He fet un formulari per l'assignatura d'estat sòlid i l'he anat mantenint amb c
 
 ## Descàrregues:
 
-[Descarrega el formulari (PDF)](/assets/files/2010/formulariES.pdf)
+[Descarrega el formulari (PDF)](/mypermanent.php?slug=estatsolid)
 
-[Descarrega el formulari (ODT)](/assets/files/2010/formulariES.odt)
+[Descarrega el formulari (ODT)](/mypermanent.php?slug=estatsolid-src)
 
 
 ## Llista de canvis:
