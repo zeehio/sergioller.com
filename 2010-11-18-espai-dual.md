@@ -9,7 +9,8 @@ de la facultat de física.
 
 ## Descàrrega:
 
-[Descarrega l'article (PDF)](/assets/files/2010/espaidual.pdf)
+[Descarrega l'article 
+(PDF)](/mypermanent.php?slug=espaidual)
 
 ### Cita l'article:
 Si voleu citar l'article (BibTex):

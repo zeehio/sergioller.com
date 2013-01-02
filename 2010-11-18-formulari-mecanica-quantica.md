@@ -9,9 +9,9 @@ mantenint amb correccions d'altres alumnes.
 
 ## Descàrregues:
 
-[Descarrega el formulari (PDF)](/assets/files/2010/formulariMQ.pdf)
+[Descarrega el formulari (PDF)](/mypermanent.php?slug=mecanicaquantica)
 
-[Descarrega el formulari (ODT)](/assets/files/2010/formulariMQ.odt)
+[Descarrega el formulari (ODT)](/mypermanent.php?slug=mecanicaquantica-src)
 
 
 ## Llista de canvis:
