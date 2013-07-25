@@ -37,7 +37,6 @@ if ( file_exists( $md_source ) ) {
   // if file name ended with text_suffix, show the original Markdown
   if ( $show_text ) {
     header( "Content-type: text/plain;charset=utf-8" );
-    echo $md_source;
     readfile( $md_source );
   } else {
     // Publish/Display the text as HTML
