@@ -23,7 +23,7 @@ if ( array_pop( $request_parts ) == $settings['text_suffix'] ) {
 
 if ( preg_match( "/^\./", $requested ) || $requested == "index.php" ) {
   // suspicious
-  header( "Content-type: text/plain" );
+  header( "Content-type: text/plain;charset=utf-8" );
   echo "It looks like you're up to something.\n";
   echo "Trying to read: $requested\n";
   exit;
@@ -33,11 +33,10 @@ if ( preg_match( "/^\./", $requested ) || $requested == "index.php" ) {
 $md_source = $_SERVER['DOCUMENT_ROOT'] . $requested;
 // path to use in link URLs
 $ht_path = dirname( $_SERVER['SCRIPT_NAME'] );
-
 if ( file_exists( $md_source ) ) {
   // if file name ended with text_suffix, show the original Markdown
   if ( $show_text ) {
-    header( "Content-type: text/plain" );
+    header( "Content-type: text/plain;charset=utf-8" );
     echo $md_source;
     readfile( $md_source );
   } else {
@@ -103,6 +102,7 @@ if ( file_exists( $md_source ) ) {
       $title = get_title( $html );
     }
     // add the Table of Contents
+    $toc_display = "";
     if ( $settings['toc'] ) {
       $html = table_of_contents( $html );
       if ( $settings['toc_hidden'] ) {
@@ -113,7 +113,7 @@ if ( file_exists( $md_source ) ) {
     } else {
       $toc_display = "";
     }
-    echo create_header($title,${ht_path},${toc_display});
+    echo create_header($title,$ht_path,$toc_display,"");
     if ( $settings['text_version'] ) {
       $text_href = "${requested_file}-${settings['text_suffix']}";
       echo '<div class="controls" style="float: right"><a href="' . $text_href . '">View Original Text</a></div>' . "\n";
