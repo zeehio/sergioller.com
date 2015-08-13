@@ -1,13 +1,12 @@
-Sergio Oller
-============
+#Sergio Oller
 
 I'm a PhD. student at the Institute for Bioengineering of Catalonia, in Barcelona.
-Know more [about me](Quant a.md)
+Know more [about me](Quant_a.md)
 
 R packages
 ----------
 
- - Conditional format in R [condformat](http://zeehio.github.io.condformat)
+ - Conditional format in R [condformat](http://zeehio.github.io/condformat)
 
 Physics
 -------
