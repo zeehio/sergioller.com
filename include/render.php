@@ -10,6 +10,11 @@
 require_once("theme.php");
 $settings = parse_ini_file( "render.ini" );
 $requested = rawurldecode( $_SERVER['REQUEST_URI'] );
+
+if ( preg_match( "/^\/$/", $requested ) ) {
+   $requested = "/index.md";
+}
+
 $request_parts = explode( '-', $requested );
 if ( array_pop( $request_parts ) == $settings['text_suffix'] ) {
   // replace the requested name with extension removed
