@@ -74,7 +74,7 @@ if ( file_exists( $md_source ) ) {
     if ( $metadata ) {
       $mtable = '<table id="metadata"><tbody>' . PHP_EOL;
       foreach( $metadata as $attr => $val ) {
-        if ( $settings['link_pattern'] && in_array( $attr, $settings['link_attrs'] ) ) {
+        if ( isset($settings['link_pattern']) && $settings['link_pattern'] && in_array( $attr, $settings['link_attrs'] ) ) {
           // turn value(s) into a link
           $newval = array();
           foreach( $val as $target ) {
