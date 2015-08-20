@@ -11,8 +11,7 @@ mantenint amb correccions d'altres alumnes.
 
 [Descarrega el formulari (PDF)](/mypermanent.php?slug=mecanicaquantica)
 
-[Descarrega el formulari (ODT)](/mypermanent.php?slug=mecanicaquantica-src)
-
+El PDF és editable amb [LibreOffice Writer](http://libreoffice.org/).
 
 ## Llista de canvis:
 

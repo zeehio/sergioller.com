@@ -33,6 +33,10 @@ function list_pages($directory) {
 
 function create_header($title,$ht_path,$toc_display,$meta) {
 
+if ($_SERVER['REQUEST_URI'] == "/") {
+ $title = "Sergio Oller - zeehio";
+}
+
 $output = <<< HTML
 <!DOCTYPE HTML>
 <html>
@@ -62,7 +66,7 @@ $output = <<< HTML
   </script>
 </head>
 <body${toc_display}>
-<h1><a href="/">zeehio - Web personal</a></h1>
+<h1><a href="/">Sergio Oller - zeehio</a></h1>
 <ul id="nav">
 HTML;
 $output .= list_pages(".");
@@ -72,10 +76,16 @@ return $output . "</ul>";
 
 function create_footer() {
 $output = <<< HTML
+<div id="footer">
+<p style="font-size:small;text-align:center"><a href="/">Main 
+page</a></p>
+</div>
+<!-- A decent amount of empty space was added so the browser can jump to anchors near the bottom of the page. -->
+<!--
 <div id="bigfoot">
-  <!-- A decent amount of empty space was added so the browser can jump to anchors near the bottom of the page. -->
   &nbsp;
 </div>
+-->
 
 </body>
 </html>

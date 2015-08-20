@@ -1,12 +1,17 @@
-#Sergio Oller
-
 I'm a PhD. student at the Institute for Bioengineering of Catalonia, in Barcelona.
-Know more [about me](Quant_a.md)
+Know more [about me](about_me.md)
+
+Python packages
+---------------
+
+ - Make paralellization easier with
+   [parmap](https://pypi.python.org/pypi/parmap) (2015)
 
 R packages
 ----------
 
- - Conditional format in R [condformat](http://zeehio.github.io/condformat)
+ - Print DataFrames and tables with conditional
+   formatting using [condformat](http://zeehio.github.io/condformat) (2015)
 
 Physics
 -------

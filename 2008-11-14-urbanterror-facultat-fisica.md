@@ -11,30 +11,21 @@ gràcia.
 
 ## Avisos i peticions:
 
-1. No pretenc infringir cap tipus de dret sobre propietat 
+No pretenc infringir cap tipus de dret sobre propietat 
 intel·lectual, ni causar cap tipus de perjudici. Si algú em demana que 
 tregui el mapa d'aquí ho faré. Si l'arquitecte de la facultat arriba a 
 veure aquesta pàgina, espero que no s'ho prengui com res pejoratiu.
 
-2. Si tens problemes per distingir realitat de ficció, no juguis a jocs 
+Si tens problemes per distingir realitat de ficció, no juguis a jocs 
 violents, i en especial no juguis amb aquest mapa. L'últim que vull és 
-una desgràcia a la meva facultat preferida.
-
-3. Vull que aquells que han jugat i s'ho han passat bé, puguin seguir 
-fent-ho. Sóc conscient que si aquest mapa es conegués viralment potser 
-acabaria tenint problemes (la gent està molt paranoica). Si descobreixo 
-que el nombre de visites creix viralment, trec el mapa d'aquí i s'ha 
-acabat el bròquil.
-
-4. Gaudeix!
+una desgràcia a la facultat.
 
 ## Instruccions d'instal·lació:
 
 1. Descarrega [ut4\_facultat\_base2.pk3](/mypermanent.php?slug=ut4_facultat_base2.pk3)
 
 2. Mou el fitxer descarregat a dins la carpeta **q3ut4** de 
-l'urbanterror (mira a D:, "Mis documentos" o /media/dades si estàs a la 
-sala d'ordinadors de la facultat, potser el trobes! )
+l'urbanterror.
 
 3. Tanca el navegador i juga
 

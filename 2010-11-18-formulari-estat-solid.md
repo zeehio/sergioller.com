@@ -8,7 +8,7 @@ He fet un formulari per l'assignatura d'estat sòlid i l'he anat mantenint amb c
 
 [Descarrega el formulari (PDF)](/mypermanent.php?slug=estatsolid)
 
-[Descarrega el formulari (ODT)](/mypermanent.php?slug=estatsolid-src)
+El PDF és editable amb [LibreOffice Writer](http://libreoffice.org/).
 
 
 ## Llista de canvis:
