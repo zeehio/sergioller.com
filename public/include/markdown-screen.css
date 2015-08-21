@@ -6,7 +6,7 @@ body, p, li, div, h1, h2, h3, h4, h5, h6, th, td {
                Palatino, serif;
 }
 
-p { max-width: 50em;}
+p, li, th, td { max-width: 50em;}
 
 body {
   margin: 1em 8em;
