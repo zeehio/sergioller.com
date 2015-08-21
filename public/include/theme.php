@@ -27,7 +27,16 @@ function list_posts($directory) {
 }
 
 function list_pages($directory) {
-	return list_files($directory,"/^[^0-9].*\.md$/","<li>","</li>",true,true);
+	$output = "";
+	$file = fopen("../pages.txt","r");
+	while($line = fgetcsv($file, 0, '|')) {
+		$output .= "<li><a href=\"$line[1]\">$line[0]</a></li>";
+	}
+	fclose($file);
+
+	return $output;
+	//return list_files($directory,"/^[^0-9].*\.md$/","<li>","</li>",true,true);
+
 }
 
 

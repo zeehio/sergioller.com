@@ -13,12 +13,6 @@ R packages
  - Print DataFrames and tables with conditional
    formatting using [condformat](http://zeehio.github.io/condformat) (2015)
 
-[Data processing for volatile analysis](/phd_related.md)
---------------------------------------------------------
-
-[Speech Synthesis](/speech_synthesis.md)
-----------------------------------------
-
 Physics
 -------
 
