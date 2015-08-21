@@ -16,13 +16,15 @@ R packages
 Data processing for volatile analysis
 --------------------------------------
 
- - More to come...
- - Sliding Window Multi-Curve Resolution: Application to
-   Gas Chromatography - Ion Mobility Spectrometry
-   [Final Version](http://dx.doi.org/10.1016/j.snb.2015.02.108)
-   [Postprint](/mypermanent.php?slug=2015_sw-mcr) licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>. (2015)
  - SMART-IMS: Signal processing for Ion Mobility Spectrometry: Biomedical
    fluid analysis and detection of toxic substances (2012-2015)
+
+### Publications
+
+ - **Sergio Oller Moreno**, Guillem Singla Buxarrais, Juan Manuel Jiménez Soto, Antonio
+Pardo, Rocío Garrido Delgado, Lourdes Arce, Santiago Marco. [Sliding Window Multi-Curve Resolution: Application to
+   Gas Chromatography - Ion Mobility Spectrometry](http://dx.doi.org/10.1016/j.snb.2015.02.108) Sensors & Actuators: B. Chemical Vol. 217 Pages 13–21 2015.
+   [Postprint](/mypermanent.php?slug=2015_sw-mcr) licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>. (2015)
 
 
 Speech synthesis
