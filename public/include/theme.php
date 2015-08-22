@@ -54,6 +54,7 @@ $output = <<< HTML
   <link rel="stylesheet" href="${ht_path}/markdown-screen.css" type="text/css" media="screen">
   <link rel="stylesheet" href="${ht_path}/markdown-print.css" type="text/css" media="print" >
   <title>$title</title>
+  <meta name=viewport content="width=device-width, initial-scale=1">
   <script type="text/javascript">
     function toggleVisibility(theButton, targetName) {
       var target = document.getElementById(targetName);

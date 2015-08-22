@@ -1,9 +1,9 @@
-@import url(//fonts.googleapis.com/css?family=Inconsolata);
 
 body, p, li, div, h1, h2, h3, h4, h5, h6, th, td {
   color: #4C4C4C;
   font-family: "Inconsolata", "Liberation Serif", "Palatino Linotype", 
                Palatino, serif;
+  src: local("Inconsolata Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/abcd.woff) format('woff');
 }
 
 p, li, th, td { max-width: 50em;}
@@ -42,10 +42,13 @@ h5:hover .permalink, h6:hover .permalink {
     margin: 1em 1em;
     max-width: 56em;
     font-family: "Helvetica Neue", sans-serif;
-    font-size: xx-large;
+    font-size: large;
   }
   pre {
-    font-size: x-large;
+    font-size: large;
+  }
+  li {
+    margin-bottom: 1em;
   }
 }
 code {
@@ -252,6 +255,17 @@ text-align: center;
 	background:rgb(180,180,192);
 /*	background:#333;*/
 	text-decoration:underline;
+}
+
+
+@media (max-device-width: 480px) {
+ body {margin:0;padding:0;}
+ h1 {font-size: xx-large;}
+ ul {margin:0.2em;padding:0em;}
+ li {margin:0;padding:0.5em;}
+ #nav ul {margin: 0em; padding:0em;}
+ #nav li {margin: 0em; padding: 0.1em;}
+ #nav ul li {margin: 0em; padding: 0em;}
 }
 /*******************************/
 /* NAVIGATION MENU ENDS HERE   */
