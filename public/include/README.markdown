@@ -52,7 +52,7 @@ Copy all the `.default` files and edit to your liking.
 
 ### PHP ###
 
-Download [PHP Markdown][phpmd] (or PHP Markdown Extra) and [PHP SmartyPants][phpsp] from Michel Fortin. Put `markdown.php` and `smartypants.php` somewhere in PHP's include path (or in the same directory as `render.php`).
+Download [Parsedown][erusev-pd] (or [Parsedown Extra][erusev-pdextra]) and [PHP SmartyPants][phpsp] from Michel Fortin and erusev. Put `Parsedown.php` and `smartypants.php` somewhere in PHP's include path (or in the same directory as `render.php`).
 
 Add an alias in your Apache config:
 
@@ -105,3 +105,6 @@ And of course we should all thank [Gruber][df], Waylan Limberg, and Michel Forti
 [pyg]:    http://pygments.org/
 [toc]:    http://www.webdesignlessons.com/creating-a-table-of-contents-generator-in-php/
 [df]:     http://daringfireball.net/
+[erusev-pdextra]:       https://github.com/erusev/parsedown-extra
+[erusev-pd]:       https://github.com/erusev/parsedown
+

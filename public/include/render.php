@@ -68,8 +68,10 @@ if ( file_exists( $md_source ) ) {
       break;
     }
     // convert Markdown to HTML
-    require_once( "markdown.php" );
-    $html = Markdown( $mdown );
+    require_once( "Parsedown.php" );
+    require_once( "ParsedownExtra.php" );
+    $Extra = new ParsedownExtra();
+    $html = $Extra->text($mdown);
     // apply SmartyPants
     if ( $settings['smartypants'] ) {
       require_once( "smartypants.php" );
