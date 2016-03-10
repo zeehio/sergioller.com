@@ -166,6 +166,15 @@ table#metadata {
   -o-box-shadow: rgba(35, 35, 35, 0.5) 2px 2px 5px;
   box-shadow: rgba(35, 35, 35, 0.5) 2px 2px 5px;
 }
+
+table.gmisc_table th{
+    color: black;
+}
+
+table.gmisc_table td{
+    color: black;
+}
+
 .mda {
   /* metadata attribute */
   font-weight: bold;
