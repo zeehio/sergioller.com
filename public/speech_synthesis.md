@@ -12,7 +12,7 @@ Speech synthesis
 
 ### META-SHARE: the open language resource exchange facility,
 
- - [META-SHARE UPC Node](http://metashare.talp.cat) (2013)
+ - [META-SHARE UPC Node](http://metashare.talp.cat) (2013-2016)
  - Upgrade META-SHARE python dependencies from django-1.3 to django-1.4. (2015) 
    [Pull Request](https://github.com/metashare/META-SHARE/pull/758)
  - *META-NET. Official Languages of Spain in the Digital Age*, IberSPEECH – VII

@@ -5,6 +5,7 @@ tags: foss, R, condformat
 condformat v0.2.0 has made it into [CRAN](https://cran.r-project.org/web/packages/condformat/index.html)!
 
 [![Downloads](http://cranlogs.r-pkg.org/badges/condformat)](http://cran.rstudio.com/web/packages/condformat/index.html)
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/_zeehio/status/707973745303023616)
 
 condformat helps visualizing DataFrames. With a `ggplot2`-like syntax we can format columns
 of our DataFrame and view it directly in the RStudio Viewer

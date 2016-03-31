@@ -29,8 +29,8 @@ Reach me:
 
  - [mail](mailto://sergioller@gmail.com)
  - [Download pgp key](/mypermanent.php?slug=pgp_key)
- - [github](https://github.com/zeehio)
- - [@zeehio](https://www.twitter.com/_zeehio) (twitter)
+ - [github/zeehio](https://github.com/zeehio)
+ - [@zeehio_](https://www.twitter.com/zeehio_) (twitter)
 
 Browse some [old stuff](old_stuff.md) (not really interesting).
 
