@@ -5,7 +5,7 @@
  * @see  https://developer.github.com/webhooks/
  * @author  Miloslav Hůla (https://github.com/milo)
  */
-$hookSecret = file_get_contents("/data/zeehio/http/sergioller.com/github_secret.txt");  # set secret to NULL to disable check
+$hookSecret = file_get_contents("/home/zeehio/www/sergioller.com/github_secret.txt");  # set secret to NULL to disable check
 set_error_handler(function($severity, $message, $file, $line) {
 	throw new \ErrorException($message, 0, $severity, $file, $line);
 });

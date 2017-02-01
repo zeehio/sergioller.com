@@ -9,9 +9,8 @@ researching, solving problems, helping colleagues and teaching.
 Currently I am a PhD. student at the 
 [Institute for Bioengineering of Catalonia](http://ibecbarcelona.eu).
 
-I am working on signal and data processing for Gas 
-Chromatography--Mass Spectrometry and Gas Chromatography--Ion Mobility 
-Spectrometry, focusing on biomedical applications.
+I am working on signal and data processing for biological data, with focus
+on Gas Chromatography--Ion Mobility Spectrometry applications.
 
 During my PhD, I worked at the Molecular Biomarkers Core in the Nestlé 
 Institute of Health Sciences, as a Omics Data Analyst and Research
