@@ -58,6 +58,7 @@ Efforts were made to provide a patch whenever possible.
 
 | Project    | Date       | Issue | Type | Patch attached | Test case              | Fixed        | Context         |
 |------------|------------|-------|------|:--------------:|:----------------------:|:------------:|-----------------|
+| [nemo](https://github.com/linuxmint/nemo) | Feb&nbsp;2017 | [Reproducible segfault in nemo](https://github.com/linuxmint/nemo/issues/1415) | Bug | No | Yes | [Yes](https://github.com/linuxmint/nemo/pull/1418) | Using file browser |
 | [sqct](https://github.com/vadym-kl/sqct) | Sep&nbsp;2016 | [Fix compiler errors and warnings](https://github.com/vadym-kl/sqct/pull/1) | Bug | Yes | Yes | Not yet | Helping a friend to build and run sqct |
 | [Fritzing](http://fritzing.org/) | Feb&nbsp;2016 | [SVG export reverses/flips the text](https://github.com/fritzing/fritzing-app/issues/3186) | Bug | No | Yes | Not yet | Designing Printed Circuit Board layouts |
 | [Telegram](https://github.com/DrKLO/Telegram) | Jan&nbsp;2016 | [Add support for reading NFC tags](https://github.com/DrKLO/Telegram/pull/1382) | Feature | Yes | Manual (hardware required) | Needs merging | Learning about Android and NFC tags |
