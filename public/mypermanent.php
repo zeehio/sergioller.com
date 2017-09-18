@@ -12,17 +12,20 @@ $listofslugs = array(
    "festcat2009" => "/download/articles/2009-09-04-RecentWorkOnFestcat-proceedingsPortoSalvo.pdf",
    "face" => "/download/face.jpg",
    "estatsolid" => "/download/formularis/formulariES.pdf",
-   "mecanicaquantica" => "/download/formularis/formulariMQ.pdf");
+   "mecanicaquantica" => "/download/formularis/formulariMQ.pdf",
+   "AddTrust_External_Root.crt" => "/download/2017-04-10-AddTrust_External_Root.crt");
 
 if (isset($_GET["id"])) {
-   echo "Please notify me of this broken link!";
+   echo "Please notify me of this broken link!\n";
 } else if (isset($_GET["slug"])) {
    $newpath = $listofslugs[$_GET["slug"]];
 }
 
-if (isset($newpath)) {
-header("Location: $newpath");
-} else {
-echo "Wrong download resource";
+if (!isset($newpath)) {
+  echo "Wrong download resource";
+  exit;
 }
+
+header("Location: $newpath");
+
 ?>

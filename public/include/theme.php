@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_URI'] == "/") {
 
 $output = <<< HTML
 <!DOCTYPE HTML>
-<html>
+<html xml:lang="en" lang="en">
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="${ht_path}/markdown-screen.css" type="text/css" media="screen">

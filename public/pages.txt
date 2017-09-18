@@ -1,4 +1,3 @@
 "Volatile analysis"|"/phd_related.md"
 "Speech Synthesis"|"/speech_synthesis.md"
 "Bug reports"|"/bug_reports.md"
-"About me"|"/about_me.md"
